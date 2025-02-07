@@ -1,0 +1,18 @@
+INFO 2025-02-04 21:19:32,635 <console> Test INFO log from shell
+DEBUG 2025-02-04 21:19:32,644 <console> Test DEBUG log from shell
+ERROR 2025-02-04 21:19:32,789 <console> Test ERROR log from shell
+INFO 2025-02-05 09:35:56,039 autoreload Watching for file changes with StatReloader
+WARNING 2025-02-05 09:36:23,515 log Not Found: /
+INFO 2025-02-05 10:21:53,833 autoreload C:\Users\Aravind\Orm2\django_orm\product_crud\urls.py changed, reloading.
+INFO 2025-02-05 10:21:54,947 autoreload Watching for file changes with StatReloader
+WARNING 2025-02-05 10:21:58,308 log Not Found: /
+INFO 2025-02-05 10:23:41,198 autoreload C:\Users\Aravind\Orm2\django_orm\product_crud\views.py changed, reloading.
+INFO 2025-02-05 10:23:41,915 autoreload Watching for file changes with StatReloader
+WARNING 2025-02-05 10:23:44,380 log Not Found: /
+INFO 2025-02-05 10:26:29,839 autoreload C:\Users\Aravind\Orm2\django_orm\django_orm\settings.py changed, reloading.
+INFO 2025-02-05 10:26:31,567 autoreload Watching for file changes with StatReloader
+INFO 2025-02-05 10:26:42,441 autoreload C:\Users\Aravind\Orm2\django_orm\django_orm\settings.py changed, reloading.
+INFO 2025-02-05 10:26:43,228 autoreload Watching for file changes with StatReloader
+INFO 2025-02-05 10:31:44,074 autoreload C:\Users\Aravind\Orm2\django_orm\django_orm\settings.py changed, reloading.
+INFO 2025-02-05 19:13:47,228 <console> This is a log from the Django shell!
+DEBUG 2025-02-05 19:13:47,239 <console> Root logger capturing this shell log.
