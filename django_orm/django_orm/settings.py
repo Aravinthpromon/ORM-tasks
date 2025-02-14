@@ -11,15 +11,23 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 """
 import os
 from pathlib import Path
+from logging.handlers import RotatingFileHandler
+
+from dotenv import load_dotenv
+
+load_dotenv()
+
+AUTH_USERNAME = os.getenv("AUTH_USERNAME", "admin")
+AUTH_PASSWORD = os.getenv("AUTH_PASSWORD", "123")
 
 
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
-# LOGGING_DIR = os.path.join(BASE_DIR, "logs")
+LOGGING_DIR = os.path.join(BASE_DIR, "logs")
 
-# if not os.path.exists(LOGGING_DIR):
-#     os.makedirs(LOGGING_DIR, exist_ok=True)
+if not os.path.exists(LOGGING_DIR):
+    os.makedirs(LOGGING_DIR, exist_ok=True)
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/
@@ -86,7 +94,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'orm_db',        
         'USER': 'postgres',             
-        'PASSWORD': '2001',     
+        'PASSWORD': 'D@t@base!M@ster2024',     
         'HOST': 'localhost',
         'PORT': '5432',
     }
@@ -134,41 +142,43 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-# LOGGING = {
-#     'version': 1,
-#     'disable_existing_loggers': False,
-#     'formatters': {
-#         'verbose': {
-#             'format': '{levelname} {asctime} {module} {message}',
-#             'style': '{',
-#         },
-#         'simple': {
-#             'format': '{levelname} {message}',
-#             'style': '{',
-#         },
-#     },
-#     'handlers': {
-#         'logfile': {
-#             'level': 'DEBUG',
-#             'class': 'logging.FileHandler',
-#             'filename': os.path.join(LOGGING_DIR, 'product.log'),
-#             'formatter': 'verbose',
-#         },
-#         'console': {
-#             'level': 'DEBUG',
-#             'class': 'logging.StreamHandler',
-#             'formatter': 'simple',
-#         },
-#     },
-#     'loggers': {
-#         'aravinth.provider': {
-#             'handlers': ['logfile', 'console'],
-#             'level': 'DEBUG',
-#             'propagate': True,
-#         },
-#         '': {  # Root logger captures all logs, including from the shell
-#             'handlers': ['logfile', 'console'],
-#             'level': 'DEBUG',
-#         },
-#     },
-# }
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'formatters': {
+        'verbose': {
+            'format': '{levelname} {asctime} {module} {message}',
+            'style': '{',
+        },
+        'simple': {
+            'format': '{levelname} {message}',
+            'style': '{',
+        },
+    },
+    'handlers': {
+        'logfile': {
+            'level': 'DEBUG',
+            'class': 'concurrent_log_handler.ConcurrentRotatingFileHandler',
+            'filename': os.path.join(LOGGING_DIR, 'product.log'),
+            'maxBytes': 1024 * 10,  # Rotate after 10 KB (for testing)
+            'backupCount': 3,  # Here i Keep 3 rotated logs
+            'formatter': 'verbose',
+        },
+        'console': {
+            'level': 'DEBUG',
+            'class': 'logging.StreamHandler',
+            'formatter': 'simple',
+        },
+    },
+    'loggers': {
+        'aravinth.provider': {
+            'handlers': ['logfile', 'console'],
+            'level': 'DEBUG',
+            'propagate': True,
+        },
+        '': {  # Root logger captures all logs, including from the shell
+            'handlers': ['logfile', 'console'],
+            'level': 'DEBUG',
+        },
+    },
+}

@@ -16,7 +16,7 @@ def category_handler(request, category_id=None):
             "message": "Category created",
             "id": category.id,
             "name": category.name
-        })
+        }, status=201)
 
     elif request.method == "PUT" and category_id:
         data = json.loads(request.body)
@@ -71,7 +71,7 @@ def product_handler(request, product_id=None):
             "category_id": category.id,
             "category_name": category.name,
             "price": product.price
-        })
+        },status=201)
 
     elif request.method == "PUT" and product_id:
         data = json.loads(request.body)
@@ -135,7 +135,7 @@ def order_handler(request, order_id=None):
             "product_name": product.name,
             "quantity": order.quantity,
             "cost": order.cost
-        })
+        },status=201)
 
     elif request.method == "PUT" and order_id:
         data = json.loads(request.body)

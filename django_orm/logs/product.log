@@ -1,18 +1,95 @@
-INFO 2025-02-04 21:19:32,635 <console> Test INFO log from shell
-DEBUG 2025-02-04 21:19:32,644 <console> Test DEBUG log from shell
-ERROR 2025-02-04 21:19:32,789 <console> Test ERROR log from shell
-INFO 2025-02-05 09:35:56,039 autoreload Watching for file changes with StatReloader
-WARNING 2025-02-05 09:36:23,515 log Not Found: /
-INFO 2025-02-05 10:21:53,833 autoreload C:\Users\Aravind\Orm2\django_orm\product_crud\urls.py changed, reloading.
-INFO 2025-02-05 10:21:54,947 autoreload Watching for file changes with StatReloader
-WARNING 2025-02-05 10:21:58,308 log Not Found: /
-INFO 2025-02-05 10:23:41,198 autoreload C:\Users\Aravind\Orm2\django_orm\product_crud\views.py changed, reloading.
-INFO 2025-02-05 10:23:41,915 autoreload Watching for file changes with StatReloader
-WARNING 2025-02-05 10:23:44,380 log Not Found: /
-INFO 2025-02-05 10:26:29,839 autoreload C:\Users\Aravind\Orm2\django_orm\django_orm\settings.py changed, reloading.
-INFO 2025-02-05 10:26:31,567 autoreload Watching for file changes with StatReloader
-INFO 2025-02-05 10:26:42,441 autoreload C:\Users\Aravind\Orm2\django_orm\django_orm\settings.py changed, reloading.
-INFO 2025-02-05 10:26:43,228 autoreload Watching for file changes with StatReloader
-INFO 2025-02-05 10:31:44,074 autoreload C:\Users\Aravind\Orm2\django_orm\django_orm\settings.py changed, reloading.
-INFO 2025-02-05 19:13:47,228 <console> This is a log from the Django shell!
-DEBUG 2025-02-05 19:13:47,239 <console> Root logger capturing this shell log.
+INFO 2025-02-11 12:07:33,812 middleware DEBUG: Received Auth Header -> Basic YWRtaW46MTIz
+INFO 2025-02-11 12:07:33,814 middleware DEBUG: Decoded Credentials -> Username: admin, Password: 123
+INFO 2025-02-11 12:07:33,818 middleware DEBUG: Received Auth Header -> Basic YWRtaW46MTIz
+INFO 2025-02-11 12:07:33,819 middleware DEBUG: Decoded Credentials -> Username: admin, Password: 123
+INFO 2025-02-11 12:07:33,823 middleware DEBUG: Received Auth Header -> Basic YWRtaW46MTIz
+INFO 2025-02-11 12:07:33,824 middleware DEBUG: Decoded Credentials -> Username: admin, Password: 123
+INFO 2025-02-11 12:07:33,828 middleware DEBUG: Received Auth Header -> Basic YWRtaW46MTIz
+INFO 2025-02-11 12:07:33,828 middleware DEBUG: Decoded Credentials -> Username: admin, Password: 123
+INFO 2025-02-11 12:07:33,832 middleware DEBUG: Received Auth Header -> Basic YWRtaW46MTIz
+INFO 2025-02-11 12:07:33,832 middleware DEBUG: Decoded Credentials -> Username: admin, Password: 123
+INFO 2025-02-11 12:07:33,836 middleware DEBUG: Received Auth Header -> Basic YWRtaW46MTIz
+INFO 2025-02-11 12:07:33,836 middleware DEBUG: Decoded Credentials -> Username: admin, Password: 123
+INFO 2025-02-11 12:07:33,841 middleware DEBUG: Received Auth Header -> Basic YWRtaW46MTIz
+INFO 2025-02-11 12:07:33,841 middleware DEBUG: Decoded Credentials -> Username: admin, Password: 123
+INFO 2025-02-11 12:07:33,845 middleware DEBUG: Received Auth Header -> Basic YWRtaW46MTIz
+INFO 2025-02-11 12:07:33,846 middleware DEBUG: Decoded Credentials -> Username: admin, Password: 123
+INFO 2025-02-11 12:07:33,855 middleware DEBUG: Received Auth Header -> Basic YWRtaW46MTIz
+INFO 2025-02-11 12:07:33,857 middleware DEBUG: Decoded Credentials -> Username: admin, Password: 123
+INFO 2025-02-11 12:07:33,861 middleware DEBUG: Received Auth Header -> Basic YWRtaW46MTIz
+INFO 2025-02-11 12:07:33,862 middleware DEBUG: Decoded Credentials -> Username: admin, Password: 123
+INFO 2025-02-11 12:07:33,867 middleware DEBUG: Received Auth Header -> Basic YWRtaW46MTIz
+INFO 2025-02-11 12:07:33,867 middleware DEBUG: Decoded Credentials -> Username: admin, Password: 123
+INFO 2025-02-11 12:14:16,690 autoreload Watching for file changes with StatReloader
+INFO 2025-02-11 12:14:50,311 middleware DEBUG: Received Auth Header -> None
+WARNING 2025-02-11 12:14:50,311 middleware Unauthorized: Missing or invalid Authorization header
+WARNING 2025-02-11 12:14:50,312 log Unauthorized: /categories/
+INFO 2025-02-11 12:14:50,314 middleware DEBUG: Received Auth Header -> Basic YWRtaW46MTIz
+INFO 2025-02-11 12:14:50,315 middleware DEBUG: Decoded Credentials -> Username: admin, Password: 123
+INFO 2025-02-11 12:14:50,325 middleware DEBUG: Received Auth Header -> Basic YWRtaW46MTIz
+INFO 2025-02-11 12:14:50,325 middleware DEBUG: Decoded Credentials -> Username: admin, Password: 123
+INFO 2025-02-11 12:14:50,328 middleware DEBUG: Received Auth Header -> Basic YWRtaW46MTIz
+INFO 2025-02-11 12:14:50,328 middleware DEBUG: Decoded Credentials -> Username: admin, Password: 123
+INFO 2025-02-11 12:14:50,332 middleware DEBUG: Received Auth Header -> Basic YWRtaW46MTIz
+INFO 2025-02-11 12:14:50,332 middleware DEBUG: Decoded Credentials -> Username: admin, Password: 123
+INFO 2025-02-11 12:14:50,335 middleware DEBUG: Received Auth Header -> Basic YWRtaW46MTIz
+INFO 2025-02-11 12:14:50,336 middleware DEBUG: Decoded Credentials -> Username: admin, Password: 123
+INFO 2025-02-11 12:14:50,339 middleware DEBUG: Received Auth Header -> Basic YWRtaW46MTIz
+INFO 2025-02-11 12:14:50,341 middleware DEBUG: Decoded Credentials -> Username: admin, Password: 123
+INFO 2025-02-11 12:14:50,344 middleware DEBUG: Received Auth Header -> Basic YWRtaW46MTIz
+INFO 2025-02-11 12:14:50,344 middleware DEBUG: Decoded Credentials -> Username: admin, Password: 123
+INFO 2025-02-11 12:14:50,349 middleware DEBUG: Received Auth Header -> Basic YWRtaW46MTIz
+INFO 2025-02-11 12:14:50,350 middleware DEBUG: Decoded Credentials -> Username: admin, Password: 123
+INFO 2025-02-11 12:14:50,359 middleware DEBUG: Received Auth Header -> Basic YWRtaW46MTIz
+INFO 2025-02-11 12:14:50,360 middleware DEBUG: Decoded Credentials -> Username: admin, Password: 123
+INFO 2025-02-11 12:14:50,364 middleware DEBUG: Received Auth Header -> Basic YWRtaW46MTIz
+INFO 2025-02-11 12:14:50,366 middleware DEBUG: Decoded Credentials -> Username: admin, Password: 123
+INFO 2025-02-11 12:14:50,369 middleware DEBUG: Received Auth Header -> Basic YWRtaW46MTIz
+INFO 2025-02-11 12:14:50,370 middleware DEBUG: Decoded Credentials -> Username: admin, Password: 123
+INFO 2025-02-11 12:14:50,374 middleware DEBUG: Received Auth Header -> Basic YWRtaW46MTIz
+INFO 2025-02-11 12:14:50,375 middleware DEBUG: Decoded Credentials -> Username: admin, Password: 123
+INFO 2025-02-11 12:14:50,383 middleware DEBUG: Received Auth Header -> Basic YWRtaW46MTIz
+INFO 2025-02-11 12:14:50,383 middleware DEBUG: Decoded Credentials -> Username: admin, Password: 123
+INFO 2025-02-11 12:16:56,496 middleware DEBUG: Received Auth Header -> None
+WARNING 2025-02-11 12:16:56,498 middleware Unauthorized: Missing or invalid Authorization header
+WARNING 2025-02-11 12:16:56,500 log Unauthorized: /
+INFO 2025-02-11 12:16:56,542 middleware DEBUG: Received Auth Header -> None
+WARNING 2025-02-11 12:16:56,544 middleware Unauthorized: Missing or invalid Authorization header
+WARNING 2025-02-11 12:16:56,546 log Unauthorized: /favicon.ico
+INFO 2025-02-11 12:19:19,620 middleware DEBUG: Received Auth Header -> None
+WARNING 2025-02-11 12:19:19,621 middleware Unauthorized: Missing or invalid Authorization header
+WARNING 2025-02-11 12:19:19,622 log Unauthorized: /
+INFO 2025-02-11 12:19:19,672 middleware DEBUG: Received Auth Header -> None
+WARNING 2025-02-11 12:19:19,673 middleware Unauthorized: Missing or invalid Authorization header
+WARNING 2025-02-11 12:19:19,674 log Unauthorized: /favicon.ico
+INFO 2025-02-11 12:30:20,066 autoreload Watching for file changes with StatReloader
+INFO 2025-02-11 12:30:28,888 middleware DEBUG: Received Auth Header -> None
+WARNING 2025-02-11 12:30:28,889 middleware Unauthorized: Missing or invalid Authorization header
+WARNING 2025-02-11 12:30:28,889 log Unauthorized: /categories/
+INFO 2025-02-11 12:30:28,892 middleware DEBUG: Received Auth Header -> Basic YWRtaW46MTIz
+INFO 2025-02-11 12:30:28,892 middleware DEBUG: Decoded Credentials -> Username: admin, Password: 123
+INFO 2025-02-11 12:30:28,903 middleware DEBUG: Received Auth Header -> Basic YWRtaW46MTIz
+INFO 2025-02-11 12:30:28,903 middleware DEBUG: Decoded Credentials -> Username: admin, Password: 123
+INFO 2025-02-11 12:30:28,907 middleware DEBUG: Received Auth Header -> Basic YWRtaW46MTIz
+INFO 2025-02-11 12:30:28,907 middleware DEBUG: Decoded Credentials -> Username: admin, Password: 123
+INFO 2025-02-11 12:30:28,912 middleware DEBUG: Received Auth Header -> Basic YWRtaW46MTIz
+INFO 2025-02-11 12:30:28,913 middleware DEBUG: Decoded Credentials -> Username: admin, Password: 123
+INFO 2025-02-11 12:30:28,918 middleware DEBUG: Received Auth Header -> Basic YWRtaW46MTIz
+INFO 2025-02-11 12:30:28,919 middleware DEBUG: Decoded Credentials -> Username: admin, Password: 123
+INFO 2025-02-11 12:30:28,927 middleware DEBUG: Received Auth Header -> Basic YWRtaW46MTIz
+INFO 2025-02-11 12:30:28,928 middleware DEBUG: Decoded Credentials -> Username: admin, Password: 123
+INFO 2025-02-11 12:30:28,932 middleware DEBUG: Received Auth Header -> Basic YWRtaW46MTIz
+INFO 2025-02-11 12:30:28,932 middleware DEBUG: Decoded Credentials -> Username: admin, Password: 123
+INFO 2025-02-11 12:30:28,936 middleware DEBUG: Received Auth Header -> Basic YWRtaW46MTIz
+INFO 2025-02-11 12:30:28,937 middleware DEBUG: Decoded Credentials -> Username: admin, Password: 123
+INFO 2025-02-11 12:30:28,944 middleware DEBUG: Received Auth Header -> Basic YWRtaW46MTIz
+INFO 2025-02-11 12:30:28,944 middleware DEBUG: Decoded Credentials -> Username: admin, Password: 123
+INFO 2025-02-11 12:30:28,950 middleware DEBUG: Received Auth Header -> Basic YWRtaW46MTIz
+INFO 2025-02-11 12:30:28,950 middleware DEBUG: Decoded Credentials -> Username: admin, Password: 123
+INFO 2025-02-11 12:30:28,954 middleware DEBUG: Received Auth Header -> Basic YWRtaW46MTIz
+INFO 2025-02-11 12:30:28,955 middleware DEBUG: Decoded Credentials -> Username: admin, Password: 123
+INFO 2025-02-11 12:30:28,960 middleware DEBUG: Received Auth Header -> Basic YWRtaW46MTIz
+INFO 2025-02-11 12:30:28,961 middleware DEBUG: Decoded Credentials -> Username: admin, Password: 123
+INFO 2025-02-11 12:30:28,967 middleware DEBUG: Received Auth Header -> Basic YWRtaW46MTIz
+INFO 2025-02-11 12:30:28,967 middleware DEBUG: Decoded Credentials -> Username: admin, Password: 123
+INFO 2025-02-14 15:45:46,189 autoreload Watching for file changes with StatReloader
